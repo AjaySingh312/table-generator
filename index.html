@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Generator</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        .table{
+            border-radius: 10px;
+           background-color: rgb(233, 230, 230);
+            margin: 100px;
+            text-align: center;
+            padding: 30px;
+        }
+        h1{
+            font-size: 30px;
+
+        }
+        #output{
+            font-size: 25px;
+        }
+
+        @media only screen and ( max-width:370px) {
+            h1{
+                font-size: 20px;
+            }
+            #output{
+                font-size: 20px;
+            }
+            .table{
+                margin: 50px;
+            }
+        }
+            
+        
+    </style>
+
+</head>
+<body>
+    <div class="table">
+        <h1>Table Generator</h1>
+        <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
